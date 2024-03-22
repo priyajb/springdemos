@@ -1,0 +1,16 @@
+package com.voya.autowiring;
+
+public class Performer {
+	private IInstruments instruments;
+	
+	public Performer(IInstruments iInstruments) {
+		this.instruments=iInstruments;
+		
+	}
+	public void playSong(String type,String song) {
+		if(type.equals("violin"));
+		instruments.play(song);
+			
+	}
+
+}

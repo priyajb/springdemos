@@ -1,0 +1,56 @@
+package com.productapp.service;
+
+import java.util.List;
+
+import com.productapp.model.Product;
+
+public class ProductServiceImpl implements IProductService {
+
+	@Override
+	public void addProduct(Product product) {
+		
+		
+	}
+
+	public void updateProduct(int productId,double price) {
+		
+		
+	}
+
+	@Override
+	public void deleteProduct(int productId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Product getById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getByBrand(String brand) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getByLessPrice(double price) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getByCategoryandPrice(String category, double price) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.voya.autowiring;
+
+public interface IIllustrate {
+	void play(String song);
+}

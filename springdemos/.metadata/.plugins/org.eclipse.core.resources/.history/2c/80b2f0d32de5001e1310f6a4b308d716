@@ -1,0 +1,10 @@
+package com.voya.autowiring;
+
+public class Violin implements IIllustrate {
+
+	public void play(String song) {
+		
+		
+	}
+
+}

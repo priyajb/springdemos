@@ -1,0 +1,9 @@
+package com.voya.food;
+
+public class AppConfig {
+	
+	public Chinese getChinese() {
+		return new Chinese();
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.voya.autowiring;
+
+public class Guitar implements IInstruments{
+	public void play(String song) {
+		
+		System.out.println("playing this " +song+ "using guitar");
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.voya.food;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Chinese implements IFoodMenu {
+
+	public List<String> showItems() {
+		
+		return Arrays.asList("noodles","chicken","maggie");
+	}
+
+}

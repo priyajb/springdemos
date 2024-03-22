@@ -1,0 +1,14 @@
+package com.doctor.exception;
+
+public class IdNotFoundException extends RuntimeException {
+
+	public IdNotFoundException() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
+		// TODO Auto-generated constructor stub
+	}
+	
+

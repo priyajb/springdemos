@@ -1,0 +1,12 @@
+package com.voya.food;
+
+import java.util.List;
+
+public class Chinese implements IFoodMenu {
+
+	public List<String> showItems() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

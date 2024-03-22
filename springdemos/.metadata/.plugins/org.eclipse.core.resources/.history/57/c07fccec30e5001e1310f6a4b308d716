@@ -1,0 +1,23 @@
+package com.voya.autowiring;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Performer {
+	private IInstruments instruments;
+	
+	public Performer(IInstruments iInstruments) {
+		this.instruments=iInstruments;
+		
+	}
+	public void playSong(String type,String song) {
+		if(type.equals("violin"));
+		instruments.play(song);
+		if(type.equals("guitar"));
+		instruments.play(song);
+		if(type.equals("keyboard"));
+		instruments.play(song);
+			
+	}
+
+}

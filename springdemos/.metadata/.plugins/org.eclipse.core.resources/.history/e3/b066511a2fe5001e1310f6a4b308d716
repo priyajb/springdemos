@@ -1,0 +1,9 @@
+package com.voya.autowiring;
+
+public class Performer {
+	void playSong(String type,String song) {
+		if(type.equals(song))
+			
+	}
+
+}

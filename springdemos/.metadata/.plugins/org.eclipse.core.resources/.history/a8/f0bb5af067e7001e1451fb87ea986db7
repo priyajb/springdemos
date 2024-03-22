@@ -1,0 +1,25 @@
+package com.insuranceapp.service;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.insuranceapp.model.Insurance;
+
+@Service
+public class InsuranceServiceImpl implements IInsuranceService {
+
+	@Override
+	public List<Insurance> getAll() {
+		
+		return Arrays.asList(new Insurance(101,"life insurance","voya","life",10,15000));
+	}
+
+	@Override
+	public Insurance getById(int insurance) {
+		
+		return null;
+	}
+
+}

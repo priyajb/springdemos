@@ -1,0 +1,8 @@
+package com.voya.setter;
+
+public class Vehicle {
+	Integer vehicleId;
+	String model;
+	String brand;
+	double price;
+}

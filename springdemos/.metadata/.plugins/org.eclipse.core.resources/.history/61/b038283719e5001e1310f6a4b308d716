@@ -1,0 +1,11 @@
+package com.spring.autowiring;
+
+import java.awt.Shape;
+
+public class ShapeFactory {
+	Shape shape;
+	
+	void printArea(int x,int y) {
+		System.out.println("printing area");
+	}
+}

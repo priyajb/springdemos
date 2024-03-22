@@ -1,0 +1,17 @@
+package com.voya.training;
+
+public class Calculator {
+	
+public int sum(int x, int y) {
+	return x+y;
+}
+public int product(int x,int y) {
+	return x*y;
+	
+}
+
+public String greetMessage(String username) {
+	// TODO Auto-generated method stub
+	return null;
+}
+}

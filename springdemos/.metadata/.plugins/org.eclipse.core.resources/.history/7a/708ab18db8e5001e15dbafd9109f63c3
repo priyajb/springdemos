@@ -1,0 +1,18 @@
+package com.voya.food;
+
+public class AppConfig {
+	
+	public Chinese getChinese() {
+		return new Chinese();
+	}
+	public Indian getIndian() {
+		return new Indian();
+	}
+	public Italian getItalian() {
+		return new Italian();
+	}
+	public Waiter getWaiter() {
+		return new Waiter();
+	}
+
+}

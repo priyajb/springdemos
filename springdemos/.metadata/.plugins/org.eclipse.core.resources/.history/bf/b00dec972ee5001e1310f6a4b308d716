@@ -1,0 +1,8 @@
+package com.voya.autowiring;
+
+public class Performer {
+	void playSong(String type,String song) {
+		
+	}
+
+}
